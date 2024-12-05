@@ -1,0 +1,43 @@
+.lead {
+    width: 984px;
+    margin: 0 auto 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: Appearance;
+    animation-duration: 0.7s;
+    animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+    padding-top: 70px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+  
+@-o-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+  
+@-moz-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+  
+@keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

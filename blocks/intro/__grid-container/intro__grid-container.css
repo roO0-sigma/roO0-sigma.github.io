@@ -1,0 +1,11 @@
+.intro__grid-container {
+    display: grid;
+    grid-template-columns: 690px 1fr;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__grid-container {
+        display: grid;
+        grid-template-columns: 95% 1fr;
+    }
+}
