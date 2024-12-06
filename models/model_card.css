@@ -1,0 +1,59 @@
+.model_card {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    background: rgba(255, 255, 255, 0.314);
+    color: white;
+    backdrop-filter: blur(2px);
+}
+
+#amd, #amd h2 {
+    color: black;
+}
+
+.model_card img {
+    max-width: 300px;
+    max-height: 200px;
+    border-radius: 8px;
+    height: auto; /* Обеспечивает одинаковую высоту изображений */
+    object-fit: cover; /* Обрезает изображение, чтобы оно заполнило блок */
+    backdrop-filter: blur(0px);
+}
+
+.model_card h2 {
+    color: #333;
+    margin: 10px 0;
+    font-family: 'Inter-Bold', sans-serif;
+    color: white;
+}
+
+
+.specs {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.specs p {
+    margin: 5px 0;
+    font-family: 'Inter-Regular', sans-serif;
+}
+
+.model_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1230px) {
+    .model_card {
+        display: flex;
+        flex-direction: column; /* Расположение карточек в столбик */
+        align-items: center; /* Центрирование карточек по горизонтали */
+    }
+}

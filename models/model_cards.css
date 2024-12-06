@@ -1,0 +1,7 @@
+.model_cards {
+    display: flex;
+    flex-direction: column; /* Расположение карточек в столбик */
+    align-items: center; /* Центрирование карточек по горизонтали */
+}
+
+

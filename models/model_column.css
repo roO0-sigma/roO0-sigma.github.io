@@ -1,0 +1,29 @@
+.model_column {
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    margin: 10px;
+}
+
+.lead_m {
+    display: flex;
+    flex-direction: column;
+}
+
+.lead__title_m, .lead__subtitle_m {
+    align-self: center;
+    font-family: 'Inter-Bold', sans-serif;
+    color: white;
+    margin: 10px;
+}
+
+.lead__title_m #amd, .lead__subtitle_m #amd{
+    align-self: center;
+    font-family: 'Inter-Bold', sans-serif;
+    color: black;
+}   
+
+.lead__title_m {
+    font-size: 50px;
+    margin-top: 30px;
+}

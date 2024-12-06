@@ -1,0 +1,27 @@
+.content_models {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 860px) {
+    .content_models {
+        display: flex;
+        flex-direction: column; /* Расположение карточек в столбик */
+        align-items: center; /* Центрирование карточек по горизонтали */
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url("../images/back_model.jpg");
+        background-attachment: fixed;
+        z-index: 100;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+  }
