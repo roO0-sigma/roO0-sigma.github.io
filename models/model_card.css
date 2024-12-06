@@ -24,7 +24,6 @@
     border-radius: 8px;
     height: auto; /* Обеспечивает одинаковую высоту изображений */
     object-fit: cover; /* Обрезает изображение, чтобы оно заполнило блок */
-    backdrop-filter: blur(0px);
 }
 
 .model_card h2 {
@@ -48,6 +47,7 @@
 .model_card:hover {
     transform: translateY(-10px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
 }
 
 @media screen and (max-width: 1230px) {
