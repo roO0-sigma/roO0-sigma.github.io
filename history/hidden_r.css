@@ -1,13 +1,14 @@
 
-.animation {
+.animation_r {
     opacity: 0;
-    transform: translateX(-300px);
+    transform: translateX(+300px);
     transition: all 0.7s ease-out;
     transition-delay: 0.4s;
 
 }
 
-.scroll-animation {
+
+.scroll-animation_r {
     opacity: 1;
     transform: translateX(0);
 }

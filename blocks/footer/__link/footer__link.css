@@ -7,6 +7,10 @@
     line-height: 1.1;
 }
 
+.social_media {
+    width: 50px;
+}
+
 @media screen and (max-width: 768px) {
     .footer__link {
         margin-right: 0;

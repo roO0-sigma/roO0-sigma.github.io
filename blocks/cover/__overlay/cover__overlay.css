@@ -4,9 +4,11 @@
     background-color: #2a2c2f;
     opacity: 0.4;
     transition: opacity 0.5s linear 0.1s;
+    border-radius: 20px;
 }
 
 .cover__overlay:hover {
     background-color: #2a2c2f;
     opacity: 0.7;
+    border-radius: 20px;
 }

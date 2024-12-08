@@ -50,7 +50,23 @@
     backdrop-filter: blur(10px);
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1230px) and (min-width: 860px) {
+    .model_card {
+        display: flex;
+        flex-direction: column; /* Расположение карточек в столбик */
+        align-items: center; /* Центрирование карточек по горизонтали */
+    }
+}
+
+@media screen and (max-width: 860px) and (min-width: 585px){
+    .model_card {
+        display: flex;
+        flex-direction: row; /* Расположение карточек в столбик */
+        align-items: center; /* Центрирование карточек по горизонтали */
+    }
+}
+
+@media screen and (max-width: 585px){
     .model_card {
         display: flex;
         flex-direction: column; /* Расположение карточек в столбик */

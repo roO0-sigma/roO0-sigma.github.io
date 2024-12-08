@@ -1,13 +1,15 @@
 .cover {
     position: relative;
-    width: 90%;
+    width: 70%;
     /* height: 740px; */
     margin: 0 auto 92px;
-    background-image: url("../../images/cover-trains.jpg");
+    background-image: url("../../images/old_CPU.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     aspect-ratio: 16 / 9;
+    border-radius: 20px;
+    
 
     display: flex;
     flex-direction: column;

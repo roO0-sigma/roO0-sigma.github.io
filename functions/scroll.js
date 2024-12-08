@@ -5,9 +5,6 @@ const observer = new IntersectionObserver((entries) => {
         if (entry.isIntersecting) {
             entry.target.classList.add('scroll-animation')
         }
-            // else {
-            //     entry.target.classList.remove('scroll-animation')
-            // }
 
     })
 },

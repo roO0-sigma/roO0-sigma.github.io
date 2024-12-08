@@ -15,7 +15,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 860px) {
     body {
         background-image: url("../images/back_model.jpg");
         background-attachment: fixed;

@@ -67,3 +67,28 @@ nav a#pull {
     filter: hue-rotate(90deg);
 }
 
+@media screen and (max-width: 768px) {
+    nav ul {
+        margin-right: 5px;
+        font-size: 9px;
+        justify-content: right;
+        height: 30px;
+    }
+
+    .header__image {
+        position: absolute;
+        width: 27px;
+        left: 10px;
+        top: 2px;
+        filter: hue-rotate(90deg);
+    }
+
+    nav {
+        height: 30px;
+    }
+
+    nav a {   
+        line-height: 30px;  
+        width: 70px;
+    }  
+}
