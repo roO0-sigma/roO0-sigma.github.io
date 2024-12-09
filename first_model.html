@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vendor/fonts.css">
+  <!-- <link rel="stylesheet" href="./pages/index.css">  -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="model/mod.css">
+  <script src="./functions/scroll.js" defer></script>
+  <script src="./functions/footer.js" defer></script>
+  <title></title>
+</head>
+<body class="root">
+    <div class="page">
+        <header class="header">
+            <div class="header__grid-container">
+                <nav class="clearfix">  
+                    <ul class="clearfix">
+                        <!-- <img src="./images/logo.png" class="header__image" alt="logo"> -->
+                        <li><a href="index.html">Главная</a></li>  
+                        <li><a href="index_models.html">Модели</a></li>  
+                        <li><a href="index_history.html">История</a></li>  
+                    </ul>  
+                    <a href="#" id="pull">Menu</a>  
+                </nav>  
+            </div>
+        </header>
+
+        <main class="content">
+            <section class="lead">
+                <h1 class="lead__title_m">AMD Ryzen™ 7 8700G Desktop Processor</h1>
+            </section>
+            
+            <div class="animation">
+                <section class="intro_m">
+                    <div class="intro__grid-container_m">
+                        
+                    <div><img src="./images/2505503-ryzen-7-8700g-Photoroom.png" class="lead__image_m" alt="Процессор"></div>
+                    <div>
+                        <h2 class="intro__title">AMD Ryzen™ 7 8700G</h2>
+                        <p class="intro__text">AMD Ryzen™ 7 8700G с AMD Ryzen AI — процессор «все и сразу». Для настольных ПК с графикой AMD Radeon™ 780M.</p>
+                    </div>
+                    </div>
+                </section>
+            </div>
+            
+            <div class="harac">
+                <div class="toggle">Технические характеристики</div>
+                <div class="content_m"><strong>
+                    Набор Инструкций:</strong>  x86-64<br>
+                    <strong>Архитектура:</strong>  Zen 4<br>
+                    <strong>Количество ядер процессора:</strong>  8<br>
+                    <strong>Многопоточность (SMT):</strong>  ДА<br>
+                    <strong>Количество потоков:</strong>  16<br>
+                    <strong>Макс. Частота наддува:</strong>  Частота до 5,1 ГГц<br>
+                    <strong>Базовые часы:</strong>  4,2 ГГц<br>
+                    <strong>Кэш - память L3:</strong>  16 МБ<br>
+                    <strong>TDP по умолчанию:</strong>  65 Вт<br>
+                    <strong>Максимальная рабочая температура</strong>  95°C<br>
+                </div>
+            
+                <div class="toggle">Подключения</div>
+                <div class="content_m">
+                    <strong>Встроенные порты USB 4 (40 Гбит/с):</strong> 2<br>
+                    <strong>Порты USB 3.2 Gen 2 (10 Гбит/с):</strong>  2<br>
+                    <strong>Встроенные порты USB 2.0 (480 Мбит/с):</strong>  1<br>
+                    <strong>Версия PCI Express®:</strong>  PCIe® 4.0<br>
+                    <strong>Собственные полосы PCIe®:</strong>  16<br>
+                    <strong>Тип системной памяти:</strong>  DDR5<br>
+                    <strong>Каналы памяти:</strong>  2<br>
+                    <strong>Макс. Объем памяти:</strong>  256 ГБ<br>
+                </div>
+            
+                <div class="toggle">Графические возможности</div>
+                <div class="content_m">
+                    <strong>Графическая модель</strong>  AMD Radeon™ 780M<br>
+                    <strong>Количество графических ядер</strong>  12<br>
+                    <strong>Частота графического отображения</strong>  2900 МГц<br>
+                    <strong>Версия DirectX®</strong>  
+                    12<br>
+                    <strong>Версия DisplayPort ™</strong>  
+                    2.1<br>
+                    <strong>Расширения DisplayPort</strong>  
+                    Адаптивная синхронизация, метаданные HDR , UHBR10<br>
+                    <strong>Альтернативный режим USB Type-C® DisplayPort™</strong>  ДА<br>
+                    <strong>Поддержка нескольких мониторов</strong>  ДА<br>
+                </div>
+            </div>
+            
+            <script>
+                const toggles = document.querySelectorAll('.toggle');
+            
+                toggles.forEach(toggle => {
+                    toggle.addEventListener('click', () => {
+                        const content = toggle.nextElementSibling;
+                        content.style.display = content.style.display === 'block' ? 'none' : 'block';
+                    });
+                });
+            </script>
+
+            
+
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__links">
+                    <a href="https://vk.com/ne_tynou" class="footer__link"><img src="./images/free-icon-vkontakte-4494490.png" class="social_media" alt="social"></a>
+                    <a href="https://t.me/penopoli" class="footer__link"><img src="./images/free-icon-telegram-2111710.png" class="social_media" alt="social"></a>
+                    <a href="https://www.youtube.com/watch?v=utKpzcEbINY&ab_channel=LiveGames" class="footer__link"><img src="./images/free-icon-youtube-4494467.png" class="social_media" alt="social"></a>
+                </div>
+                <p class="footer__copyright">© 2024. kekhd</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
